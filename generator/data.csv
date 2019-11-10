@@ -1,0 +1,7 @@
+;Is it a man?;Is your person dead?;Has children?;Comedian actor?;Older than 50;Bald?;Was/Is a president?;Black?
+;man;dead;has_children;actor_comedian;older_than_50;bald;was_is_president;black
+jim_carrey;1;0;1;1;1;0;0;0
+donald_trump;1;0;1;0;1;0;1;0
+barack_obama;1;0;1;0;1;0;1;1
+marilyn_monroe;0;1;0;0;0;0;0;0
+bruce_willis;1;0;1;0;1;1;0;0
