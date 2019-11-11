@@ -1,3 +1,5 @@
+% init version. Asking all questions.
+
 start :-
     writeln('Hi'),
     get_facts(F),
