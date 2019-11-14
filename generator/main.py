@@ -1,7 +1,7 @@
 import csv
 
-with open('data.csv') as csv_file:
-    with open('../src/db.pl', 'w') as file:
+with open('/Users/vladyslavlopatin/PycharmProjects/akinator/generator/data.csv') as csv_file:
+    with open('/Users/vladyslavlopatin/PycharmProjects/akinator/src/db.pl', 'w') as file:
         csv_reader = csv.reader(csv_file, delimiter=';')
         line_count = 0
         facts = []
