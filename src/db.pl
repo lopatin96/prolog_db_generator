@@ -1,12 +1,13 @@
 get_questions(Q) :-
-    Q = ['Is it a man?', 'Is your person dead?', 'Has children?', 'Comedian actor?', 'Older than 50', 'Bald?', 'Was/Is a president?', 'Black?'].
+    Q = ['Is it a man?', 'Dead?', 'Has children?', 'Comedian?', 'Actor?', 'Older than 50', 'Bald?', 'Was/Is a president?', 'Black?', 'Polish?', 'Singer?', 'Athlete?', 'Writer?', 'Scientist?'].
 
 get_facts(F) :-
-    F = [man, dead, has_children, actor_comedian, older_than_50, bald, was_is_president, black].
+    F = [man, dead, has_children, comedian, actor, older_than_50, bald, was_is_president, black, polish, singer, athlete, writer, scientist].
 
 man(jim_carrey).
 has_children(jim_carrey).
-actor_comedian(jim_carrey).
+comedian(jim_carrey).
+actor(jim_carrey).
 older_than_50(jim_carrey).
 man(donald_trump).
 has_children(donald_trump).
@@ -20,7 +21,92 @@ black(barack_obama).
 dead(marilyn_monroe).
 man(bruce_willis).
 has_children(bruce_willis).
-older_than_50(bruce_willis).
+actor(bruce_willis).
 bald(bruce_willis).
+man(tom_cruise).
+has_children(tom_cruise).
+actor(tom_cruise).
+older_than_50(tom_cruise).
+man(andrzej_duda).
+has_children(andrzej_duda).
+was_is_president(andrzej_duda).
+polish(andrzej_duda).
+man(eddie_murphy).
+has_children(eddie_murphy).
+comedian(eddie_murphy).
+actor(eddie_murphy).
+older_than_50(eddie_murphy).
+bald(eddie_murphy).
+black(eddie_murphy).
+man(robert_lewandowski).
+has_children(robert_lewandowski).
+polish(robert_lewandowski).
+athlete(robert_lewandowski).
+polish(agnieszka_radwanska).
+athlete(agnieszka_radwanska).
+polish(doda).
+Singer(doda).
+man(dawid_podsiadlo).
+polish(dawid_podsiadlo).
+Singer(dawid_podsiadlo).
+man(jrr_tolkien).
+dead(jrr_tolkien).
+has_children(jrr_tolkien).
+older_than_50(jrr_tolkien).
+writer(jrr_tolkien).
+man(lech_kaczynski).
+dead(lech_kaczynski).
+has_children(lech_kaczynski).
+actor(lech_kaczynski).
+older_than_50(lech_kaczynski).
+was_is_president(lech_kaczynski).
+polish(lech_kaczynski).
+dead(wislawa_szymborska).
+older_than_50(wislawa_szymborska).
+polish(wislawa_szymborska).
+writer(wislawa_szymborska).
+has_children(julia_roberts).
+actor(julia_roberts).
+older_than_50(julia_roberts).
+man(freddie_mercury).
+dead(freddie_mercury).
+singer(freddie_mercury).
+man(christiano_ronaldo).
+has_children(christiano_ronaldo).
+athlete(christiano_ronaldo).
+man(jan_pawel_2).
+older_than_50(jan_pawel_2).
+polish(jan_pawel_2).
+man(mikolaj_kopernik).
+dead(mikolaj_kopernik).
+older_than_50(mikolaj_kopernik).
+polish(mikolaj_kopernik).
+scientist(mikolaj_kopernik).
+man(albert_einsten).
+dead(albert_einsten).
+has_children(albert_einsten).
+older_than_50(albert_einsten).
+scientist(albert_einsten).
+man(boguslaw_linda).
+has_children(boguslaw_linda).
+actor(boguslaw_linda).
+older_than_50(boguslaw_linda).
+polish(boguslaw_linda).
+man(morgan_freeman).
+has_children(morgan_freeman).
+actor(morgan_freeman).
+older_than_50(morgan_freeman).
+black(morgan_freeman).
+man(usain_bolt).
+black(usain_bolt).
+athlete(usain_bolt).
+has_children(jk_rowling).
+older_than_50(jk_rowling).
+writer(jk_rowling).
+dead(maria_sklodowska_curie).
+has_children(maria_sklodowska_curie).
+older_than_50(maria_sklodowska_curie).
+polish(maria_sklodowska_curie).
+scientist(maria_sklodowska_curie).
 get_people(P) :-
-    P = [jim_carrey, donald_trump, barack_obama, marilyn_monroe, bruce_willis].
+    P = [jim_carrey, donald_trump, barack_obama, marilyn_monroe, bruce_willis, tom_cruise, andrzej_duda, eddie_murphy, robert_lewandowski, agnieszka_radwanska, doda, dawid_podsiadlo, jrr_tolkien, lech_kaczynski, wislawa_szymborska, julia_roberts, freddie_mercury, christiano_ronaldo, jan_pawel_2, mikolaj_kopernik, albert_einsten, boguslaw_linda, morgan_freeman, usain_bolt, jk_rowling, maria_sklodowska_curie].
