@@ -45,10 +45,10 @@ athlete(robert_lewandowski).
 polish(agnieszka_radwanska).
 athlete(agnieszka_radwanska).
 polish(doda).
-Singer(doda).
+singer(doda).
 man(dawid_podsiadlo).
 polish(dawid_podsiadlo).
-Singer(dawid_podsiadlo).
+singer(dawid_podsiadlo).
 man(jrr_tolkien).
 dead(jrr_tolkien).
 has_children(jrr_tolkien).
